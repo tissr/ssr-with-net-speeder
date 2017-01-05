@@ -2,11 +2,11 @@
 
 本代码是部署一个nodejs项目，自动实时获取arukas的IP和端口的。
 
-演示地址：https://free-shadowsocks.arukascloud.io/
+演示地址：https://freetingss.arukascloud.io/
 
 ### 部署方法
 ```
-镜像：malaohu/ssr-with-net-speeder-arukas
+镜像：yuolvv/ssr-with-net-speeder-arukas
 端口:3999 TCP
 CMD : node /app/server.js token secret xxxxx-appid-xxxxxx
 #推荐使用上面的CMD命令

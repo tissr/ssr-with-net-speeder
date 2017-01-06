@@ -26,7 +26,7 @@ images  =   ["malaohu/ssr-with-net-speeder","lowid/ss-with-net-speeder","smouniv
 app.get('/', function(req, res) {
     getit(appid,function(err,data){   
         if(err || !data)
-            res.send('没有查询到数据。请检查node启动参数是否正确。更多内容请访问：https://github.com/malaohu/ssr-with-net-speeder/tree/arukas');
+            res.send('没有查询到数据。请检查node启动参数是否正确。更多内容请访问：http://browser.iyu.pub/freess');
         else    
             res.render('./index.html',{"data":data || []});
     })

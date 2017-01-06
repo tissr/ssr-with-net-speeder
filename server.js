@@ -128,7 +128,8 @@ app.get('/:appid',function(req,res){
 })
 
 app.get('/i', function (req, res) {
-    res.send('http://51.ruyo.net');
+    //res.send('http://51.ruyo.net');
+	res.send('http://browser.iyu.pub');
 })
 
 app.listen(3999, function () {
